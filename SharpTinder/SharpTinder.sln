@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpTinder", "SharpTinder\SharpTinder.csproj", "{41003A42-7EB9-41A1-BBB6-68E7F125A335}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpTinderExample", "SharpTinderExample\SharpTinderExample.csproj", "{E9734D0D-B245-46CF-BA74-D7E74B1D0BC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41003A42-7EB9-41A1-BBB6-68E7F125A335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41003A42-7EB9-41A1-BBB6-68E7F125A335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41003A42-7EB9-41A1-BBB6-68E7F125A335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41003A42-7EB9-41A1-BBB6-68E7F125A335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9734D0D-B245-46CF-BA74-D7E74B1D0BC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9734D0D-B245-46CF-BA74-D7E74B1D0BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9734D0D-B245-46CF-BA74-D7E74B1D0BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9734D0D-B245-46CF-BA74-D7E74B1D0BC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
