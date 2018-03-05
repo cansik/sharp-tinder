@@ -158,6 +158,14 @@ namespace SharpTinder
 
             return data.Status == 200;
         }
+
+        public async Task<TinderMeta> GetMeta()
+        {
+
+            var data = JsonConvert.DeserializeObject<TinderMeta>(
+                await GetRequest("meta"));
+            return data;
+        }
     }
 }
 

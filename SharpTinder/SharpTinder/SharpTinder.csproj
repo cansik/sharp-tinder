@@ -42,9 +42,57 @@
     <Compile Include="TinderRecommendation.cs" />
     <Compile Include="TinderUpdate.cs" />
     <Compile Include="TinderUserResult.cs" />
+    <Compile Include="TinderMeta.cs" />
+    <Compile Include="Tinder\Globals.cs" />
+    <Compile Include="Tinder\InformationPhoto.cs" />
+    <Compile Include="Tinder\Interest.cs" />
+    <Compile Include="Tinder\ProcessedFile.cs" />
+    <Compile Include="Tinder\ProfileCompany.cs" />
+    <Compile Include="Tinder\ProfileJob.cs" />
+    <Compile Include="Tinder\ProfileSchool.cs" />
+    <Compile Include="Tinder\User.cs" />
+    <Compile Include="Tinder\Versions.cs" />
+    <Compile Include="Tinder\CategoryList.cs" />
+    <Compile Include="Tinder\Account.cs" />
+    <Compile Include="Tinder\Boost.cs" />
+    <Compile Include="Tinder\Carousel.cs" />
+    <Compile Include="Tinder\ClientResources.cs" />
+    <Compile Include="Tinder\Photo.cs" />
+    <Compile Include="Tinder\Products.cs" />
+    <Compile Include="Tinder\Purchase.cs" />
+    <Compile Include="Tinder\RateCard.cs" />
+    <Compile Include="Tinder\Rating.cs" />
+    <Compile Include="Tinder\Regular.cs" />
+    <Compile Include="Tinder\Sku.cs" />
+    <Compile Include="Tinder\Superlike.cs" />
+    <Compile Include="Tinder\SuperLikes.cs" />
+    <Compile Include="TinderPhoto.cs" />
+    <Compile Include="Tinder\CommonConnection.cs" />
+    <Compile Include="Tinder\CommonInterest.cs" />
+    <Compile Include="Tinder\Company.cs" />
+    <Compile Include="Tinder\FacebookPhoto.cs" />
+    <Compile Include="Tinder\Instagram.cs" />
+    <Compile Include="Tinder\InstagramPhoto.cs" />
+    <Compile Include="Tinder\Job.cs" />
+    <Compile Include="Tinder\LikedMessage.cs" />
+    <Compile Include="Tinder\Match.cs" />
+    <Compile Include="Tinder\Message.cs" />
+    <Compile Include="Tinder\Person.cs" />
+    <Compile Include="Tinder\RecommendationPhoto.cs" />
+    <Compile Include="Tinder\Result.cs" />
+    <Compile Include="Tinder\Results.cs" />
+    <Compile Include="Tinder\School.cs" />
+    <Compile Include="Tinder\Teaser.cs" />
+    <Compile Include="Tinder\Title.cs" />
+    <Compile Include="Tinder\Travel.cs" />
+    <Compile Include="Tinder\UserResultPhoto.cs" />
+    <Compile Include="MicrosecondEpochConverter.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <None Include="Tinder\packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Tinder\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
