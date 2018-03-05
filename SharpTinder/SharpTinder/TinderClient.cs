@@ -156,7 +156,7 @@ namespace SharpTinder
             return data;
         }
 
-        public async Task<bool> Ping(double longitude, double latitude)
+        public async Task<bool> Ping(float longitude, float latitude)
         {
             var data = JsonConvert.DeserializeObject<TinderUserResult>(
                 await PostRequest("user/ping", new
@@ -176,13 +176,18 @@ namespace SharpTinder
             return data;
         }
 
-        public async Task<String> Travel(double longitude, double latitude)
+        public async Task<String> Travel(float longitude, float latitude)
         {
             return await PostRequest("passport/user/travel", new
             {
                 lon = longitude,
                 lat = latitude
             });
+        }
+
+        public async Task<String> ResetTravel()
+        {
+            return await PostRequest("passport/user/travel", new object());
         }
     }
 }
