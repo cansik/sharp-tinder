@@ -1,6 +1,8 @@
 # Sharp Tinder
 Sharp Tinder is a basic client framework for the very popular tinder dating app.
 
+The API still works (**March 2018**) but it could be changed by tinder.
+
 ## API
 Currently supported are following api methods:
 
