@@ -147,7 +147,7 @@ namespace SharpTinder
             return data;
         }
 
-        public async Task<bool> UpdatePosition(double longitude, double latitude)
+        public async Task<bool> Ping(double longitude, double latitude)
         {
             var data = JsonConvert.DeserializeObject<TinderUserResult>(
                 await PostRequest("user/ping", new
