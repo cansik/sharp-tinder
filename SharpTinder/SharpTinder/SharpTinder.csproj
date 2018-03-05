@@ -87,12 +87,14 @@
     <Compile Include="Tinder\Travel.cs" />
     <Compile Include="Tinder\UserResultPhoto.cs" />
     <Compile Include="MicrosecondEpochConverter.cs" />
+    <Compile Include="Core\TinderRecommendation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Tinder\packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Tinder\" />
+    <Folder Include="Core\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

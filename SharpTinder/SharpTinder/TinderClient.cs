@@ -3,6 +3,7 @@ using System.Net;
 using System.Threading.Tasks;
 using System.Collections.Specialized;
 using Newtonsoft.Json;
+using System.IO;
 
 namespace SharpTinder
 {
@@ -97,12 +98,20 @@ namespace SharpTinder
             return data;
         }
 
+        public async Task<Core.TinderRecommendation> GetCoreRecommendations()
+        {
+            var data = await GetRequest("v2/recs/core?locale=en-US");
+            return JsonConvert.DeserializeObject<Core.TinderRecommendation>(
+                data);
+        }
+
         public async Task<TinderRecommendation> GetRecommendations()
         {
             var data = await GetRequest("user/recs");
             return JsonConvert.DeserializeObject<TinderRecommendation>(
                 data);
         }
+
 
         public async Task<TinderMatchResult> Rate(string userId, bool like, bool superLike)
         {
@@ -165,6 +174,15 @@ namespace SharpTinder
             var data = JsonConvert.DeserializeObject<TinderMeta>(
                 await GetRequest("meta"));
             return data;
+        }
+
+        public async Task<String> Travel(double longitude, double latitude)
+        {
+            return await PostRequest("passport/user/travel", new
+            {
+                lon = longitude,
+                lat = latitude
+            });
         }
     }
 }
