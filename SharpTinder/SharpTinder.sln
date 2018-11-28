@@ -1,9 +1,14 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpTinder", "SharpTinder\SharpTinder.csproj", "{41003A42-7EB9-41A1-BBB6-68E7F125A335}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpTinderExample", "SharpTinderExample\SharpTinderExample.csproj", "{E9734D0D-B245-46CF-BA74-D7E74B1D0BC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpTinderCore", "SharpTinderCore\SharpTinderCore.csproj", "{47EE9270-45DC-4426-8FDB-17676C2FD665}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpTinderCoreExample", "SharpTinderCoreExample\SharpTinderCoreExample.csproj", "{7A6B1EF9-D5F4-4D81-ACBC-34AEA738E3F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,5 +24,19 @@ Global
 		{E9734D0D-B245-46CF-BA74-D7E74B1D0BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9734D0D-B245-46CF-BA74-D7E74B1D0BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9734D0D-B245-46CF-BA74-D7E74B1D0BC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47EE9270-45DC-4426-8FDB-17676C2FD665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47EE9270-45DC-4426-8FDB-17676C2FD665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47EE9270-45DC-4426-8FDB-17676C2FD665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47EE9270-45DC-4426-8FDB-17676C2FD665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A6B1EF9-D5F4-4D81-ACBC-34AEA738E3F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A6B1EF9-D5F4-4D81-ACBC-34AEA738E3F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A6B1EF9-D5F4-4D81-ACBC-34AEA738E3F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A6B1EF9-D5F4-4D81-ACBC-34AEA738E3F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9A930A6-910B-402C-B939-DEE1C96CC1E9}
 	EndGlobalSection
 EndGlobal
