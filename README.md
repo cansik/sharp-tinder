@@ -46,5 +46,9 @@ foreach (var m in res.Matches)
 		Console.WriteLine($"{m.Person.Name} ({m.Id}) - {2016 - m.Person.BirthDate.Year}");
 ```
 
+## .NET Standard 2.0 / .NET Core 2.0
+
+If you want to use this is a Net Standard or Net Core application, use the corresponding `SharpTinderCore` and `SharpTinderCoreExample` projects.
+
 ## About
 Sharp Tinder was just a proof of concept written in August 2016
